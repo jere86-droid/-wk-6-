@@ -31,4 +31,5 @@ SELECT o.orderDate, o.shippedDate, o.status, o.customerNumber
 FROM customers c
 RIGHT JOIN orders o
     ON c.customerNumber = o.customerNumber
-LIMIT 10;
+LIMIT 10; 
+--- done 
